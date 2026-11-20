@@ -1,0 +1,1717 @@
+{
+  "schema_version": 1,
+  "description": "M3-T7 5x5x3 空心方管：水平环片 + 垂直围板 + 十字骨架黄金样例",
+  "project_id": "prj_m3_decomposition",
+  "bead_spec": {
+    "size": "5mm",
+    "outer_diameter_mm": 5.0,
+    "pitch_mm": 5.0,
+    "height_mm": 5.1,
+    "hole_diameter_mm": 2.2,
+    "board_max_cells_x": 29,
+    "board_max_cells_y": 29
+  },
+  "voxel_grid": {
+    "width": 5,
+    "height": 5,
+    "depth": 3,
+    "occupied": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        0
+      ],
+      [
+        4,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        4,
+        1,
+        0
+      ],
+      [
+        0,
+        2,
+        0
+      ],
+      [
+        4,
+        2,
+        0
+      ],
+      [
+        0,
+        3,
+        0
+      ],
+      [
+        4,
+        3,
+        0
+      ],
+      [
+        0,
+        4,
+        0
+      ],
+      [
+        1,
+        4,
+        0
+      ],
+      [
+        2,
+        4,
+        0
+      ],
+      [
+        3,
+        4,
+        0
+      ],
+      [
+        4,
+        4,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        2,
+        0,
+        1
+      ],
+      [
+        3,
+        0,
+        1
+      ],
+      [
+        4,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        4,
+        1,
+        1
+      ],
+      [
+        0,
+        2,
+        1
+      ],
+      [
+        4,
+        2,
+        1
+      ],
+      [
+        0,
+        3,
+        1
+      ],
+      [
+        4,
+        3,
+        1
+      ],
+      [
+        0,
+        4,
+        1
+      ],
+      [
+        1,
+        4,
+        1
+      ],
+      [
+        2,
+        4,
+        1
+      ],
+      [
+        3,
+        4,
+        1
+      ],
+      [
+        4,
+        4,
+        1
+      ],
+      [
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        0,
+        2
+      ],
+      [
+        2,
+        0,
+        2
+      ],
+      [
+        3,
+        0,
+        2
+      ],
+      [
+        4,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        4,
+        1,
+        2
+      ],
+      [
+        0,
+        2,
+        2
+      ],
+      [
+        4,
+        2,
+        2
+      ],
+      [
+        0,
+        3,
+        2
+      ],
+      [
+        4,
+        3,
+        2
+      ],
+      [
+        0,
+        4,
+        2
+      ],
+      [
+        1,
+        4,
+        2
+      ],
+      [
+        2,
+        4,
+        2
+      ],
+      [
+        3,
+        4,
+        2
+      ],
+      [
+        4,
+        4,
+        2
+      ]
+    ],
+    "color_by_voxel": {
+      "0,0,0": "orange",
+      "1,0,0": "orange",
+      "2,0,0": "orange",
+      "3,0,0": "orange",
+      "4,0,0": "orange",
+      "0,1,0": "orange",
+      "4,1,0": "orange",
+      "0,2,0": "orange",
+      "4,2,0": "orange",
+      "0,3,0": "orange",
+      "4,3,0": "orange",
+      "0,4,0": "orange",
+      "1,4,0": "orange",
+      "2,4,0": "orange",
+      "3,4,0": "orange",
+      "4,4,0": "orange",
+      "0,0,1": "orange",
+      "1,0,1": "orange",
+      "2,0,1": "orange",
+      "3,0,1": "orange",
+      "4,0,1": "orange",
+      "0,1,1": "orange",
+      "4,1,1": "orange",
+      "0,2,1": "orange",
+      "4,2,1": "orange",
+      "0,3,1": "orange",
+      "4,3,1": "orange",
+      "0,4,1": "orange",
+      "1,4,1": "orange",
+      "2,4,1": "orange",
+      "3,4,1": "orange",
+      "4,4,1": "orange",
+      "0,0,2": "orange",
+      "1,0,2": "orange",
+      "2,0,2": "orange",
+      "3,0,2": "orange",
+      "4,0,2": "orange",
+      "0,1,2": "orange",
+      "4,1,2": "orange",
+      "0,2,2": "orange",
+      "4,2,2": "orange",
+      "0,3,2": "orange",
+      "4,3,2": "orange",
+      "0,4,2": "orange",
+      "1,4,2": "orange",
+      "2,4,2": "orange",
+      "3,4,2": "orange",
+      "4,4,2": "orange"
+    }
+  },
+  "config": {
+    "band": {
+      "color_distance_threshold": 0.2,
+      "area_change_threshold": 0.1,
+      "radius_change_threshold": 0.1,
+      "hole_count_change_threshold": 0,
+      "component_count_change_threshold": 0
+    },
+    "vertical": {
+      "min_segments": 4,
+      "max_segments": 8,
+      "joint_margin_cells": 2
+    },
+    "cross_skeleton": {
+      "arm_width_cells": 1,
+      "min_clearance_cells": 1
+    }
+  },
+  "expected": {
+    "layer_count": 3,
+    "component_count": 3,
+    "boundary_edge_count": 96,
+    "band_count": 1,
+    "bands": [
+      {
+        "id": "B01",
+        "z_start": 0,
+        "z_end": 2,
+        "layer_count": 3,
+        "is_empty": false
+      }
+    ],
+    "horizontal_plates": [
+      {
+        "id": "P01",
+        "kind": "ring",
+        "z": 0,
+        "band_id": "B01",
+        "component_id": "L000-C001",
+        "outer_contour_id": "L000-C001-O",
+        "hole_contour_ids": [
+          "L000-C001-H001"
+        ],
+        "cells": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "holes": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "color_by_cell": {
+          "0,0": "orange",
+          "1,0": "orange",
+          "2,0": "orange",
+          "3,0": "orange",
+          "4,0": "orange",
+          "0,1": "orange",
+          "4,1": "orange",
+          "0,2": "orange",
+          "4,2": "orange",
+          "0,3": "orange",
+          "4,3": "orange",
+          "0,4": "orange",
+          "1,4": "orange",
+          "2,4": "orange",
+          "3,4": "orange",
+          "4,4": "orange"
+        }
+      },
+      {
+        "id": "P02",
+        "kind": "ring",
+        "z": 1,
+        "band_id": "B01",
+        "component_id": "L001-C001",
+        "outer_contour_id": "L001-C001-O",
+        "hole_contour_ids": [
+          "L001-C001-H001"
+        ],
+        "cells": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "holes": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "color_by_cell": {
+          "0,0": "orange",
+          "1,0": "orange",
+          "2,0": "orange",
+          "3,0": "orange",
+          "4,0": "orange",
+          "0,1": "orange",
+          "4,1": "orange",
+          "0,2": "orange",
+          "4,2": "orange",
+          "0,3": "orange",
+          "4,3": "orange",
+          "0,4": "orange",
+          "1,4": "orange",
+          "2,4": "orange",
+          "3,4": "orange",
+          "4,4": "orange"
+        }
+      },
+      {
+        "id": "P03",
+        "kind": "ring",
+        "z": 2,
+        "band_id": "B01",
+        "component_id": "L002-C001",
+        "outer_contour_id": "L002-C001-O",
+        "hole_contour_ids": [
+          "L002-C001-H001"
+        ],
+        "cells": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "holes": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "color_by_cell": {
+          "0,0": "orange",
+          "1,0": "orange",
+          "2,0": "orange",
+          "3,0": "orange",
+          "4,0": "orange",
+          "0,1": "orange",
+          "4,1": "orange",
+          "0,2": "orange",
+          "4,2": "orange",
+          "0,3": "orange",
+          "4,3": "orange",
+          "0,4": "orange",
+          "1,4": "orange",
+          "2,4": "orange",
+          "3,4": "orange",
+          "4,4": "orange"
+        }
+      }
+    ],
+    "vertical_plates": [
+      {
+        "id": "P04",
+        "kind": "perimeter",
+        "band_id": "B01",
+        "component_id": "L000-C001",
+        "source_z": 0,
+        "contour_id": "L000-C001-O",
+        "segment_index": 0,
+        "segment_count": 4,
+        "start_vertex": [
+          0,
+          0
+        ],
+        "end_vertex": [
+          5,
+          0
+        ],
+        "width": 5,
+        "height": 3,
+        "joint_margin_cells": 2,
+        "cells": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "color_by_cell": {
+          "0,0": "orange",
+          "1,0": "orange",
+          "2,0": "orange",
+          "3,0": "orange",
+          "4,0": "orange",
+          "0,1": "orange",
+          "1,1": "orange",
+          "2,1": "orange",
+          "3,1": "orange",
+          "4,1": "orange",
+          "0,2": "orange",
+          "1,2": "orange",
+          "2,2": "orange",
+          "3,2": "orange",
+          "4,2": "orange"
+        }
+      },
+      {
+        "id": "P05",
+        "kind": "perimeter",
+        "band_id": "B01",
+        "component_id": "L000-C001",
+        "source_z": 0,
+        "contour_id": "L000-C001-O",
+        "segment_index": 1,
+        "segment_count": 4,
+        "start_vertex": [
+          5,
+          0
+        ],
+        "end_vertex": [
+          5,
+          5
+        ],
+        "width": 5,
+        "height": 3,
+        "joint_margin_cells": 2,
+        "cells": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "color_by_cell": {
+          "0,0": "orange",
+          "1,0": "orange",
+          "2,0": "orange",
+          "3,0": "orange",
+          "4,0": "orange",
+          "0,1": "orange",
+          "1,1": "orange",
+          "2,1": "orange",
+          "3,1": "orange",
+          "4,1": "orange",
+          "0,2": "orange",
+          "1,2": "orange",
+          "2,2": "orange",
+          "3,2": "orange",
+          "4,2": "orange"
+        }
+      },
+      {
+        "id": "P06",
+        "kind": "perimeter",
+        "band_id": "B01",
+        "component_id": "L000-C001",
+        "source_z": 0,
+        "contour_id": "L000-C001-O",
+        "segment_index": 2,
+        "segment_count": 4,
+        "start_vertex": [
+          5,
+          5
+        ],
+        "end_vertex": [
+          0,
+          5
+        ],
+        "width": 5,
+        "height": 3,
+        "joint_margin_cells": 2,
+        "cells": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "color_by_cell": {
+          "0,0": "orange",
+          "1,0": "orange",
+          "2,0": "orange",
+          "3,0": "orange",
+          "4,0": "orange",
+          "0,1": "orange",
+          "1,1": "orange",
+          "2,1": "orange",
+          "3,1": "orange",
+          "4,1": "orange",
+          "0,2": "orange",
+          "1,2": "orange",
+          "2,2": "orange",
+          "3,2": "orange",
+          "4,2": "orange"
+        }
+      },
+      {
+        "id": "P07",
+        "kind": "perimeter",
+        "band_id": "B01",
+        "component_id": "L000-C001",
+        "source_z": 0,
+        "contour_id": "L000-C001-O",
+        "segment_index": 3,
+        "segment_count": 4,
+        "start_vertex": [
+          0,
+          5
+        ],
+        "end_vertex": [
+          0,
+          0
+        ],
+        "width": 5,
+        "height": 3,
+        "joint_margin_cells": 2,
+        "cells": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "color_by_cell": {
+          "0,0": "orange",
+          "1,0": "orange",
+          "2,0": "orange",
+          "3,0": "orange",
+          "4,0": "orange",
+          "0,1": "orange",
+          "1,1": "orange",
+          "2,1": "orange",
+          "3,1": "orange",
+          "4,1": "orange",
+          "0,2": "orange",
+          "1,2": "orange",
+          "2,2": "orange",
+          "3,2": "orange",
+          "4,2": "orange"
+        }
+      }
+    ],
+    "cross_skeletons": [
+      {
+        "id": "P08",
+        "kind": "cross_skeleton",
+        "band_id": "B01",
+        "z": 0,
+        "component_id": "L000-C001",
+        "hole_contour_ids": [
+          "L000-C001-H001"
+        ],
+        "arm_width_cells": 1,
+        "width": 3,
+        "height": 3,
+        "cell_count": 5,
+        "clearance_count": 4,
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "source_cells": [
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "clearance_cells": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "color_by_cell": {}
+      },
+      {
+        "id": "P09",
+        "kind": "cross_skeleton",
+        "band_id": "B01",
+        "z": 1,
+        "component_id": "L001-C001",
+        "hole_contour_ids": [
+          "L001-C001-H001"
+        ],
+        "arm_width_cells": 1,
+        "width": 3,
+        "height": 3,
+        "cell_count": 5,
+        "clearance_count": 4,
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "source_cells": [
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "clearance_cells": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "color_by_cell": {}
+      },
+      {
+        "id": "P10",
+        "kind": "cross_skeleton",
+        "band_id": "B01",
+        "z": 2,
+        "component_id": "L002-C001",
+        "hole_contour_ids": [
+          "L002-C001-H001"
+        ],
+        "arm_width_cells": 1,
+        "width": 3,
+        "height": 3,
+        "cell_count": 5,
+        "clearance_count": 4,
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "source_cells": [
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "clearance_cells": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "color_by_cell": {}
+      }
+    ],
+    "contact_edges": [
+      {
+        "id": "E01",
+        "plate_a": "P01",
+        "plate_b": "P02",
+        "kind": "face",
+        "direction": "z+",
+        "position": 0,
+        "contact_length": 16,
+        "contact_edge": "B01/B01:L000-C001/L001-C001:z0-z1",
+        "band_id": "B01",
+        "source_z": 0,
+        "contour_id": "L000-C001-O",
+        "segment_index": null,
+        "joint_type_hint": "load_bearing"
+      },
+      {
+        "id": "E02",
+        "plate_a": "P01",
+        "plate_b": "P04",
+        "kind": "face",
+        "direction": "y-",
+        "position": 0,
+        "contact_length": 5,
+        "contact_edge": "B01:L000-C001:L000-C001-O:0:z0",
+        "band_id": "B01",
+        "source_z": 0,
+        "contour_id": "L000-C001-O",
+        "segment_index": 0,
+        "joint_type_hint": "load_bearing"
+      },
+      {
+        "id": "E03",
+        "plate_a": "P01",
+        "plate_b": "P05",
+        "kind": "face",
+        "direction": "x+",
+        "position": 0,
+        "contact_length": 5,
+        "contact_edge": "B01:L000-C001:L000-C001-O:1:z0",
+        "band_id": "B01",
+        "source_z": 0,
+        "contour_id": "L000-C001-O",
+        "segment_index": 1,
+        "joint_type_hint": "load_bearing"
+      },
+      {
+        "id": "E04",
+        "plate_a": "P01",
+        "plate_b": "P06",
+        "kind": "face",
+        "direction": "y+",
+        "position": 0,
+        "contact_length": 5,
+        "contact_edge": "B01:L000-C001:L000-C001-O:2:z0",
+        "band_id": "B01",
+        "source_z": 0,
+        "contour_id": "L000-C001-O",
+        "segment_index": 2,
+        "joint_type_hint": "load_bearing"
+      },
+      {
+        "id": "E05",
+        "plate_a": "P01",
+        "plate_b": "P07",
+        "kind": "face",
+        "direction": "x-",
+        "position": 0,
+        "contact_length": 5,
+        "contact_edge": "B01:L000-C001:L000-C001-O:3:z0",
+        "band_id": "B01",
+        "source_z": 0,
+        "contour_id": "L000-C001-O",
+        "segment_index": 3,
+        "joint_type_hint": "load_bearing"
+      },
+      {
+        "id": "E06",
+        "plate_a": "P02",
+        "plate_b": "P03",
+        "kind": "face",
+        "direction": "z+",
+        "position": 0,
+        "contact_length": 16,
+        "contact_edge": "B01/B01:L001-C001/L002-C001:z1-z2",
+        "band_id": "B01",
+        "source_z": 1,
+        "contour_id": "L001-C001-O",
+        "segment_index": null,
+        "joint_type_hint": "load_bearing"
+      },
+      {
+        "id": "E07",
+        "plate_a": "P02",
+        "plate_b": "P04",
+        "kind": "face",
+        "direction": "y-",
+        "position": 0,
+        "contact_length": 5,
+        "contact_edge": "B01:L001-C001:L000-C001-O:0:z1",
+        "band_id": "B01",
+        "source_z": 1,
+        "contour_id": "L000-C001-O",
+        "segment_index": 0,
+        "joint_type_hint": "load_bearing"
+      },
+      {
+        "id": "E08",
+        "plate_a": "P02",
+        "plate_b": "P05",
+        "kind": "face",
+        "direction": "x+",
+        "position": 0,
+        "contact_length": 5,
+        "contact_edge": "B01:L001-C001:L000-C001-O:1:z1",
+        "band_id": "B01",
+        "source_z": 1,
+        "contour_id": "L000-C001-O",
+        "segment_index": 1,
+        "joint_type_hint": "load_bearing"
+      },
+      {
+        "id": "E09",
+        "plate_a": "P02",
+        "plate_b": "P06",
+        "kind": "face",
+        "direction": "y+",
+        "position": 0,
+        "contact_length": 5,
+        "contact_edge": "B01:L001-C001:L000-C001-O:2:z1",
+        "band_id": "B01",
+        "source_z": 1,
+        "contour_id": "L000-C001-O",
+        "segment_index": 2,
+        "joint_type_hint": "load_bearing"
+      },
+      {
+        "id": "E10",
+        "plate_a": "P02",
+        "plate_b": "P07",
+        "kind": "face",
+        "direction": "x-",
+        "position": 0,
+        "contact_length": 5,
+        "contact_edge": "B01:L001-C001:L000-C001-O:3:z1",
+        "band_id": "B01",
+        "source_z": 1,
+        "contour_id": "L000-C001-O",
+        "segment_index": 3,
+        "joint_type_hint": "load_bearing"
+      },
+      {
+        "id": "E11",
+        "plate_a": "P03",
+        "plate_b": "P04",
+        "kind": "face",
+        "direction": "y-",
+        "position": 0,
+        "contact_length": 5,
+        "contact_edge": "B01:L002-C001:L000-C001-O:0:z2",
+        "band_id": "B01",
+        "source_z": 2,
+        "contour_id": "L000-C001-O",
+        "segment_index": 0,
+        "joint_type_hint": "load_bearing"
+      },
+      {
+        "id": "E12",
+        "plate_a": "P03",
+        "plate_b": "P05",
+        "kind": "face",
+        "direction": "x+",
+        "position": 0,
+        "contact_length": 5,
+        "contact_edge": "B01:L002-C001:L000-C001-O:1:z2",
+        "band_id": "B01",
+        "source_z": 2,
+        "contour_id": "L000-C001-O",
+        "segment_index": 1,
+        "joint_type_hint": "load_bearing"
+      },
+      {
+        "id": "E13",
+        "plate_a": "P03",
+        "plate_b": "P06",
+        "kind": "face",
+        "direction": "y+",
+        "position": 0,
+        "contact_length": 5,
+        "contact_edge": "B01:L002-C001:L000-C001-O:2:z2",
+        "band_id": "B01",
+        "source_z": 2,
+        "contour_id": "L000-C001-O",
+        "segment_index": 2,
+        "joint_type_hint": "load_bearing"
+      },
+      {
+        "id": "E14",
+        "plate_a": "P03",
+        "plate_b": "P07",
+        "kind": "face",
+        "direction": "x-",
+        "position": 0,
+        "contact_length": 5,
+        "contact_edge": "B01:L002-C001:L000-C001-O:3:z2",
+        "band_id": "B01",
+        "source_z": 2,
+        "contour_id": "L000-C001-O",
+        "segment_index": 3,
+        "joint_type_hint": "load_bearing"
+      },
+      {
+        "id": "E15",
+        "plate_a": "P04",
+        "plate_b": "P05",
+        "kind": "segment_joint",
+        "direction": "x+",
+        "position": 4,
+        "contact_length": 3,
+        "contact_edge": "B01:L000-C001-O:0-1",
+        "band_id": "B01",
+        "source_z": 0,
+        "contour_id": "L000-C001-O",
+        "segment_index": 0,
+        "joint_type_hint": "load_bearing"
+      },
+      {
+        "id": "E16",
+        "plate_a": "P04",
+        "plate_b": "P07",
+        "kind": "segment_joint",
+        "direction": "y+",
+        "position": 0,
+        "contact_length": 3,
+        "contact_edge": "B01:L000-C001-O:3-0",
+        "band_id": "B01",
+        "source_z": 0,
+        "contour_id": "L000-C001-O",
+        "segment_index": 3,
+        "joint_type_hint": "load_bearing"
+      },
+      {
+        "id": "E17",
+        "plate_a": "P05",
+        "plate_b": "P06",
+        "kind": "segment_joint",
+        "direction": "y+",
+        "position": 4,
+        "contact_length": 3,
+        "contact_edge": "B01:L000-C001-O:1-2",
+        "band_id": "B01",
+        "source_z": 0,
+        "contour_id": "L000-C001-O",
+        "segment_index": 1,
+        "joint_type_hint": "load_bearing"
+      },
+      {
+        "id": "E18",
+        "plate_a": "P06",
+        "plate_b": "P07",
+        "kind": "segment_joint",
+        "direction": "x-",
+        "position": 4,
+        "contact_length": 3,
+        "contact_edge": "B01:L000-C001-O:2-3",
+        "band_id": "B01",
+        "source_z": 0,
+        "contour_id": "L000-C001-O",
+        "segment_index": 2,
+        "joint_type_hint": "load_bearing"
+      },
+      {
+        "id": "E19",
+        "plate_a": "P08",
+        "plate_b": "P09",
+        "kind": "face",
+        "direction": "z+",
+        "position": 0,
+        "contact_length": 5,
+        "contact_edge": "B01/B01:cross:0-1",
+        "band_id": "B01",
+        "source_z": 0,
+        "contour_id": null,
+        "segment_index": null,
+        "joint_type_hint": "load_bearing"
+      },
+      {
+        "id": "E20",
+        "plate_a": "P09",
+        "plate_b": "P10",
+        "kind": "face",
+        "direction": "z+",
+        "position": 0,
+        "contact_length": 5,
+        "contact_edge": "B01/B01:cross:1-2",
+        "band_id": "B01",
+        "source_z": 1,
+        "contour_id": null,
+        "segment_index": null,
+        "joint_type_hint": "load_bearing"
+      }
+    ],
+    "summary": {
+      "plate_count": 10,
+      "horizontal_count": 3,
+      "vertical_count": 4,
+      "cross_count": 3,
+      "contact_edge_count": 20,
+      "connected_components": [
+        [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07"
+        ],
+        [
+          "P08",
+          "P09",
+          "P10"
+        ]
+      ]
+    }
+  },
+  "route_features": [
+    "shape_partitioned",
+    "double_sided_hole",
+    "glue_free_interlock"
+  ],
+  "palette": {
+    "orange": "#e86f2d"
+  },
+  "bottom_ring_id": "P01"
+}

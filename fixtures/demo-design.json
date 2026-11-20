@@ -1,0 +1,74 @@
+{
+  "project_id": "prj_demo_001",
+  "bead_spec": {
+    "size": "5mm",
+    "outer_diameter_mm": 5.0,
+    "pitch_mm": 5.0,
+    "height_mm": 5.1,
+    "hole_diameter_mm": 2.2,
+    "board_max_cells_x": 29,
+    "board_max_cells_y": 29
+  },
+  "voxel_grid": {
+    "width": 2,
+    "height": 2,
+    "depth": 1,
+    "occupied": [[0, 0, 0], [1, 0, 0], [0, 1, 0], [1, 1, 0]],
+    "color_by_voxel": {
+      "0,0,0": "orange",
+      "1,0,0": "orange",
+      "0,1,0": "orange",
+      "1,1,0": "orange"
+    }
+  },
+  "plates": [
+    {
+      "id": "P01",
+      "kind": "ring",
+      "cells": [[0, 0], [1, 0], [0, 1], [1, 1]],
+      "color_by_cell": {
+        "0,0": "orange",
+        "1,0": "orange",
+        "0,1": "orange",
+        "1,1": "orange"
+      },
+      "holes": [],
+      "label": "底环"
+    },
+    {
+      "id": "P02",
+      "kind": "cap",
+      "cells": [[0, 0]],
+      "color_by_cell": {"0,0": "orange"},
+      "holes": [],
+      "label": "封顶"
+    }
+  ],
+  "joints": [
+    {
+      "id": "J01",
+      "plate_a": "P01",
+      "plate_b": "P02",
+      "edge_a": "top",
+      "edge_b": "bottom",
+      "direction": "z-",
+      "position": 1,
+      "width": 1,
+      "length": 1,
+      "joint_type": "load_bearing",
+      "tongue_cells": [[0, 0, 0]],
+      "slot_cells": [[0, 0, 0], [1, 0, 0]]
+    }
+  ],
+  "assembly": {
+    "nodes": ["P01", "P02"],
+    "edges": [{"before": "P01", "after": "P02", "joint_id": "J01"}]
+  },
+  "route_features": [
+    "shape_partitioned",
+    "double_sided_hole",
+    "glue_free_interlock"
+  ],
+  "palette": {"orange": "#e86f2d"},
+  "bottom_ring_id": "P01"
+}

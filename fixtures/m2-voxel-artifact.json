@@ -1,0 +1,32 @@
+{
+  "source_model": {
+    "kind": "box",
+    "extents": [2.0, 4.0, 6.0],
+    "source_up_axis": "y",
+    "artifact_id": "art_model_glb_golden",
+    "relative_path": "projects/prj_golden/model/model.glb"
+  },
+  "options": {
+    "target_height_mm": 30.0,
+    "source_up_axis": "y",
+    "delta_e_tolerance": 6.0,
+    "color_palette": "perler-standard"
+  },
+  "expected": {
+    "schema_version": 1,
+    "cache_key": "08cacf2e4e2fff54e8cd2c8ee91d7d4f9ee65378d693c04f5800ca5345505cab",
+    "artifact_id": "art_voxel_npz_08cacf2e4e2fff54e8cd2c8e",
+    "grid_shape": [3, 9, 6],
+    "grid_extent_mm": [15.0, 45.0, 30.0],
+    "pitch_mm": 5.0,
+    "surface_voxel_count": 134,
+    "interior_voxel_count": 28,
+    "occupied_count": 162,
+    "color_counts": {"charcoal": 162},
+    "used_palette": {"charcoal": "#3b3b3b"},
+    "slice_z3_occupied_count": 27,
+    "slice_z3_color_counts": {"charcoal": 27},
+    "occupied_sha256": "032706b2dc2d3b2d74bf7e4bff8a2f1abfe0031b307dc07a081d4ffcd8bd078f",
+    "color_sha256": "2697c2baa86eab023ae4dc28903f2edc6d38bb17f5beae0f18d99b736125b9ca"
+  }
+}

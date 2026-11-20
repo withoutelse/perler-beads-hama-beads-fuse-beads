@@ -1,0 +1,26 @@
+{
+  "source_mesh": {
+    "kind": "box",
+    "extents": [2.0, 4.0, 6.0],
+    "source_up_axis": "y"
+  },
+  "bead_spec": "standard_5mm",
+  "target_height_mm": 30.0,
+  "expected": {
+    "grid_shape": [3, 9, 6],
+    "grid_extent_mm": [15.0, 45.0, 30.0],
+    "bounds_mm": [
+      [0.0, 0.0, 0.0],
+      [15.0, 45.0, 30.0]
+    ],
+    "transform": [
+      [7.5, 0.0, 0.0, 7.5],
+      [0.0, 0.0, -7.5, 22.5],
+      [0.0, 7.5, 0.0, 15.0],
+      [0.0, 0.0, 0.0, 1.0]
+    ],
+    "surface_voxel_count": 134,
+    "interior_voxel_count": 28,
+    "solid_voxel_count": 162
+  }
+}

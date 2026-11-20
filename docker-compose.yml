@@ -1,0 +1,35 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: apps/api/Dockerfile
+    environment:
+      APP_ENV: docker
+      APP_HOST: 0.0.0.0
+      APP_PORT: 8000
+      DATABASE_URL: sqlite:////data/pindou.db
+      STORAGE_DIR: /data
+      CORS_ORIGINS: '["http://localhost:5173"]'
+      TRIPO_API_BASE_URL: ${TRIPO_API_BASE_URL:-https://api.tripo3d.ai/v2/openapi}
+      TRIPO_API_KEY: ${TRIPO_API_KEY:-}
+      TRIPO_MODEL_VERSION: ${TRIPO_MODEL_VERSION:-v2.5-20250123}
+      TRIPO_POLL_INTERVAL_S: ${TRIPO_POLL_INTERVAL_S:-2.0}
+      TRIPO_TASK_TIMEOUT_S: ${TRIPO_TASK_TIMEOUT_S:-600}
+      TRIPO_REQUEST_TIMEOUT_S: ${TRIPO_REQUEST_TIMEOUT_S:-120}
+    ports:
+      - "8000:8000"
+    volumes:
+      - pindou-data:/data
+
+  web:
+    build:
+      context: .
+      dockerfile: apps/web/Dockerfile
+    depends_on:
+      - api
+    ports:
+      - "5173:80"
+
+volumes:
+  pindou-data:
+
